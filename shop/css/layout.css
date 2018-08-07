@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+/* 상단 레이아웃 */
+#hd {}
+#head_wrap {width: 100%; text-align: center; clear: both; height:270px; background: url(../images/bg_hd.png) repeat-x top left; }
+
+#global_box { width:100%;height:32px;zoom:1}
+
+#global { position: relative; margin: 0px auto; width: 1200px; height: 32px;  }
+.global_left {float: left; width:250px; }
+.global_right {width: 500px; text-align: right; float: right; }
+
+#global .btn_kakao{ float:left;width:83px; }
+#global .btn_home{ float:left; width:83px; text-align:center; line-height:32px; background:#2e436f;}
+#global .btn_home a{ color:#fff;}
+#global .btn_add{ float:left; width:58px; padding-left:25px; text-align:left; line-height:32px; border-right:#dcdcdc solid 1px;background: url(../images/blit_03.png) no-repeat 5px 8px;}
+#global .btn_add a{ color:#4e4e4e;}
+#global .util_mu{ position:absolute; right:0; top:0}
+#global .util_mu li{ display:block; float:left; padding:0 10px;text-align:center; line-height:32px; background: url(../images/bar_01.png) no-repeat center right;}
+#global .util_mu li a{ color:#4e4e4e;}
+
+
+
+#global_header  { position:relative;margin: 0px auto; width: 1200px; height: 159px; text-align: left; clear: both; position: relative; }
+#global_header .global_banner { position:absolute; left:0;top:0}
+#global_header .logo { text-align:center; padding-top:25px;}
+#global_header .search {  position:absolute; right:0;top:0  }
+
+#global_cs_mu{ position:relative; margin:0 auto; width:1200px; height:37px; line-height:37px;font-family:나눔고딕,NanumGothic,Malgun,'맑은고딕','돋움',Dotum,AppleGothic,sans-serif;font-size:15px; color:#1c1c1c; font-weight:600; }
+#global_cs_mu ul{float:right;}
+#global_cs_mu li{ float:left; text-align:center; padding:0 10px;}
+#global_cs_mu .point1{ color:#F30}
+#global_cs_mu .point2{ color:#F39}
+#global_cs_mu .point3{  background:#4886ba}
+#global_cs_mu .point3 a{ color:#fff;}
+
+#global_menu  { clear:both; margin: 0px auto; width: 100%; height: 42px; font-family:나눔고딕,NanumGothic,Malgun,'맑은고딕','돋움',Dotum,AppleGothic,sans-serif;font-size:13px; list-style: none; }
+
+
+/* 메인 wrapper */
+#visual{ clear:both;position:relative; margin:0 auto;width:1575px; height:576px;}
+#slides{margin:0 auto;  width:100%; height:576px;  }
+#slides .slides_container { position:relative; margin:0 auto;  width:100%;  height:576px; text-align:center}
+#slides .pagination li{list-style-type:none; 1575pxtext-align:center}
+#slides .prev{ position:absolute; top:260px;left:-20px; z-index:100; }
+#slides .next{ position:absolute; top:260px; right:-20px; z-index:100;}
+
+
+#main_inner{ width:100%;}
+#box1 {}
+#index_box { position: relative;  margin: 0px; width: 1200px; height: auto !important; zoom: 1; }
+#index_box:after {display:block;visibility:hidden;clear:both;content:""}
+#index_ti { margin: 0px; background-image: url(../images/m_ti_bg.gif); background-repeat: repeat-x; height: 24px; }
+
+#index_box2 { float: left;width: 1190px; border: 5px solid #b2b2b2;  }
+.index_left { float: left; width: 290px; padding-top: 15px; padding-right: 44px; padding-left: 15px; }
+.index_center {float: left; width:500px; }
+.index_right { float: right; width: 290px; padding-top: 15px; padding-right: 15px; padding-left: 20px; }
+#index_banner {float: left;width: 1200px; margin:0px 0px 25px 0px; }
+#index_banner li { float: left; margin: 0px 13px 0px 0px; list-style: none; }
+#index_banner li:last-child {float: left;margin:0px 0px 0px 0px;}
+
+#main_ban { margin-top:50px;}
+#main_ban .main_ban01 { float:left; width:381px; height:380px; margin-right:9px; }
+#main_ban .main_ban02 { float:left; width:410px; height:380px; margin-right:10px;}
+#main_ban .main_ban03 { float:left; width:390px; height:380px; }
+#main_ban .main_ban04 { clear:both; width:1200px; height:269px; padding:20px 0; }
+
+
+
+/* foot_cs */
+#foot_cs_inner{ width:100%; height:268px; background:#f8f8f8;}
+#foot_cs_inner .foot_cs{margin:0 auto; width:1200px; text-align:center }
+
+
+/* 서브메뉴 */
+#submenu li{list-style:none;margin:0;padding:0}
+#submenu img{border:0;vertical-align:top}
+#submenu {margin:0px; padding:0px;}
+
+
+#subevent {margin:6px 0px 10px 0px; padding:0px; }
+#subevent li{list-style:none;margin:0;padding:0}
+#subevent img{border:0;vertical-align:top}
+
+/* 풋터 */
+#footer { clear:both; width:100%; background-color: #f7f7f7; width: 100%; height: 34px; zoom: 1; border-top-width: 2px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid; border-top-color: #777777; border-bottom-color: #eaeaea; }
+#footer_box { margin: 0px auto; width: 1200px; height: 34px; position: relative; }
+#footer_left { float: left; width: 500px; height: 34px;  }
+#footer_left ul {list-style:none; }
+#footer_left ul li{ float: left; border-right-width: 1px; border-right-style: solid; border-right-color: #d2d2d2; }
+#footer_left ul li:last-child { border-right-width: 0px; }
+#footer_left ul li a {margin:0px 10px 0px 10px; }
+#footer_right {width: 50px; text-align: right;margin:8px 0px 0 0; float: right;}
+
+#footer2 { clear: both; width: 100%; background-color: #ffffff; width: 100%; height: 105px; zoom: 1; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #eaeaea; }
+#footer2_box {margin: 0px auto; width: 1200px; height: 105px; text-align: left; position: relative;  }
+#footer2_logo {float: left; width:200px; margin:15px 0px 0px 0px;}
+#footer2_left {float: left; width:600px;height: 74px; margin:15px 0px 0px 10px;}
+#footer2_right {width: 269px; text-align: right;margin:15px 0px 0px 0px; float: right; }
+
+#footer3 { clear: both; width: 100%; background-color: #ffffff; width: 100%; height: 80px; zoom: 1;}
+#footer3_box {margin: 0px auto; width:1200px;  height: 80px; padding:10px 0px 0px 0px; }
+#footer3_box ul {margin:0px;list-style:none}
+#footer3_box ul:after {display:block;visibility:hidden;clear:both;content:""}
+#footer3_box li{float:left;margin:5px 40px 0 20px; }
+#footer3_box a {text-decoration:none}
+
+
+/* 메뉴 */
+/*#top_menu {margin: 0px auto;  width:1200px; height:40px;}
+#top_menu ul.topmenu {width:1200px; height:40px; list-style: none;margin: 0px; padding: 0px; }
+#top_menu ul.topmenu li {float: left;  }
+#top_menu ul.topmenu li.s1 {margin-top:10px;padding-right: 37px; padding-left: 100px;background-image: url(../images/menu_line.gif); background-repeat: no-repeat; background-position: right; }
+#top_menu ul.topmenu li.s2 {margin-top:10px;padding-right: 37px; padding-left: 37px;background-image: url(../images/menu_line.gif); background-repeat: no-repeat; background-position: right; }
+#top_menu ul.topmenu li.s3 {margin-top:10px;padding-right: 37px; padding-left: 37px; }
+#top_menu ul.topmenu li.s4 {padding-left: 32px;}
+#top_menu ul.topmenu li:last-child { float: left; background-image: url(); background-repeat: no-repeat; }
+#top_menu ul.topmenu li a img{}
+
+
+/* gnb */
+#top_menu{position:relative;margin:0 auto; width:984px; z-index:99999; height:42px; padding:0 108px 0 108px;  }
+#top_menu li{ float:left; width:auto;height:42px; line-height:42px; padding:0 19px;text-align:center;background: url(../images/blit_01.png) no-repeat right top;}
+#top_menu>ul>li>a {display:block;font-weight:600; font-size:15px;color:#fff; line-height:42px;}
+#top_menu>ul>li>a:hover{display:block;font-weight:600; font-size:15px;color:#b2c433;  line-height:42px;background: url(../images/blit_02.png) no-repeat center bottom;}
+#top_menu>ul>ul>a{ z-index:99999;}
+#top_menu ul { position:relative;}
+#top_menu ul ul { display:none;padding:0 10px;background:#e9e9e9 }
+#top_menu ul ul li{ float:none; width:auto; height:35px; padding:0 10px;background:#e9e9e9 }
+#top_menu>ul>li:hover ul{display:block;}
+#top_menu li li a{display:block; text-align:left; line-height:35px; font-size:12px; color:#414141; font-weight:500;}
+#top_menu li li a:hover{display:block; text-align:left; line-height:35px; font-size:12px; color:#414141;font-weight:500;}
+#top_menu li .navi01 {display:none;position:absolute; top:42px; left:10px;}
+#top_menu li .navi02 {display:none;position:absolute; top:42px; left:70px;}
+#top_menu li .navi03 {display:none;position:absolute; top:42px; left:190px; }
+#top_menu li .navi04 {display:none;position:absolute; top:42px; left:275px;}
+#top_menu li .navi05 {display:none;position:absolute; top:42px; left:340px;}
+#top_menu li .navi06 {display:none;position:absolute; top:42px; left:420px;}
+#top_menu li .navi07 {display:none;position:absolute; top:42px; left:480px;}
+#top_menu li .navi08 {display:none;position:absolute; top:42px; right:310px;}
+#top_menu li .navi09 {display:none;position:absolute; top:42px; right:220px;}
+#top_menu li .navi10 {display:none;position:absolute; top:42px; right:150px;}
+#top_menu li .navi11 {display:none;position:absolute; top:42px; right:80px;}
+#top_menu li .navi12 {display:none;position:absolute; top:42px; right:-12px;}
+
+#top_menu .pd0{ padding:0;}
+#top_menu .bgnone{background:none}
+
+.gnb_new{ position:absolute; left:0; top:0}
+.gnb_sale{ position:absolute; right:0; top:0}
+
+
+/* Reset code to remove theme inherent styling */
+.dcjq-mega-menu ul.menu ul, .dcjq-mega-menu ul.menu li {list-style: none; padding: 0; margin: 0;}
+.dcjq-mega-menu ul.menu ul {display: none; /* Hides non-mega links */}
+.dcjq-mega-menu ul.menu .sub ul {display: block; /* overrides above hide */}
+
+/* Main menu styles */
+.dcjq-mega-menu ul.menu {background: #222 url(../images/bg_green.png) repeat-x 0 -80px; 
+width: 100%; 
+height: 40px; 
+border-right: 0px solid #1B1B1B; 
+border-left: 0px solid #1B1B1B; 
+position: relative; /* Important - required for positioning of mega menu */
+font: normal 13px Arial, sans-serif; 
+line-height: 16px;
+margin: 0; padding: 0; border: none;
+}
+.dcjq-mega-menu ul.menu li {
+float: left; 
+font-weight: bold;
+}
+.dcjq-mega-menu ul.menu li a { float: left; display: block; background: url(../images/bg_green.png) repeat-x 100% 0; font-size: 15px; font-weight: bold; text-decoration: none; color: #ffffff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35); text-decoration: none; padding-top: 12px; padding-right: 30px; padding-bottom: 12px; padding-left: 33px; }
+.dcjq-mega-menu ul.menu li.mega-hover a, .dcjq-mega-menu ul.menu li a:hover {
+background-position: 100% -40px; 
+color: #000; 
+text-shadow: none;
+}
+
+.dcjq-mega-menu ul.menu li a:last-child { float: left; display: block; font-size: 15px; font-weight: bold; text-decoration: none; color: #ffffff; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35); text-decoration: none; padding-top: 12px; padding-right: 30px; padding-bottom: 12px; padding-left: 33px; background-image: url(../images/bg_green.png); background-repeat: repeat-x; background-position: 0% 0; }
+.dcjq-mega-menu ul.menu li.mega-hover a, .dcjq-mega-menu ul.menu li a:hover {
+background-position: 100% -40px; 
+color: #000; 
+text-shadow: none;
+}
+
+/* Arrow tag for parent links */
+.dcjq-mega-menu ul.menu li a.dc-mega {
+padding-right: 30px; /* Additional padding for arrow */
+position: relative; /* Required for arrow positioning */
+}
+.dcjq-mega-menu ul.menu li a .dc-mega-icon {
+display: block; 
+position: absolute; 
+top: 18px; 
+right: 15px; 
+width: 8px; 
+height: 6px; 
+
+}
+.dcjq-mega-menu ul.menu li.mega-hover a .dc-mega-icon {
+background-position: 0 100%;
+}
+
+/* Mega Menu Styling */
+/* Mega Drop Down Container */
+.dcjq-mega-menu ul.menu li .sub-container { position: absolute; /* Required */ background: url(../images/bg_sub_left.png) no-repeat 0 100%; padding-left: 10px; margin-left: -3px; }
+.dcjq-mega-menu ul.menu li .sub {
+background: url(../images/bg_sub.png) no-repeat 100% 100%; 
+padding: 20px 20px 20px 10px;
+}
+.dcjq-mega-menu ul.menu li .sub-container.mega .sub {
+padding: 20px 10px 0 0;
+}
+.dcjq-mega-menu ul.menu li .sub .row { /* Clear the sub-menu floats */
+width: 100%; 
+overflow: hidden; 
+clear: both;
+}
+.dcjq-mega-menu ul.menu li .sub li {
+float: none; 
+font-size: 1em; 
+font-weight: bold;
+}
+/* Sub-menu Headers */
+.dcjq-mega-menu ul.menu li .sub li.mega-hdr { /* Sub-menu headers - i.e. 2nd level navigation */
+float: left; /* Float the sub-menus and give them a fixed width to from the mega menu rows */
+width: 260px;
+margin: 10px 10px 20px 10px;
+border: 1px solid #ccc; 
+}
+.dcjq-mega-menu ul.menu li .sub a { /* Clear the styles from the top-level links and set the font styles */ background: none; border: none; text-shadow: none; color: #333; padding: 7px 10px; display: block; float: none; text-decoration: none; font-size: 0.9em; text-align: left; }
+.dcjq-mega-menu ul.menu li .sub li.mega-hdr a.mega-hdr-a {
+padding: 7px 10px; 
+margin-bottom: 5px; 
+border-bottom: 1px solid #ccc; 
+text-transform: uppercase; 
+font-weight: bold; 
+color: #000; 
+background: #EAEAEA url(../images/bg_hdr.png) repeat-x center center;
+}
+.dcjq-mega-menu ul.menu li .sub li.mega-hdr a.mega-hdr-a:hover {
+color: #000; 
+text-shadow: none;
+}
+
+
+/* Add the individual sub-menu backgrounds */
+.dcjq-mega-menu ul.menu li .sub li#menu-item-1 {
+background: url(../images/bg_coupe.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-2 {
+background: url(../images/bg_sedan.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-3 {
+background: url(../images/bg_convert.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-4 {
+background: url(../images/bg_suv.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-5 {
+background: url(../images/bg_pickup.jpg) no-repeat 135px 40px;
+}
+.dcjq-mega-menu ul.menu li .sub li#menu-item-6 {
+background: url(../images/bg_sports.jpg) no-repeat 135px 40px;
+}
+
+/* Style the 3rd level links */
+.dcjq-mega-menu ul.menu li .sub li ul li {
+margin-right: 90px;
+}
+.dcjq-mega-menu ul.menu .sub li.mega-hdr li a {
+color: #444;
+font-weight: normal; 
+padding: 3px 0 3px 25px; 
+background: url(../images/bullet.png) no-repeat 10px 8px; 
+}
+.dcjq-mega-menu ul.menu .sub li.mega-hdr li a:hover {
+color: #990000;
+background-image: url(../images/bullet_on.png); 
+}
+
+/* Styling for items with only 2 levels */
+.dcjq-mega-menu ul.menu li .sub-container.non-mega .sub {
+padding: 20px 20px 20px 10px;
+}
+.dcjq-mega-menu ul.menu li .sub-container.non-mega li {
+width: 190px; /* Set the drop down width */
+}
+.dcjq-mega-menu ul.menu li .sub-container.non-mega li a {
+padding: 7px 5px 7px 22px; 
+background: url(../images/bullet.png) no-repeat 5px 12px;
+}
+.dcjq-mega-menu ul.menu li .sub-container.non-mega li a:hover {
+color: #990000;
+background-image: url(../images/bullet_on.png);
+}
